@@ -189,6 +189,15 @@ body li {
   padding: 10px 32px;
 }
 
+/*Оформлення button type=button*/
+button { 
+  border: 0px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+}
+
 /*Description*/
 .description .title {
   color: var(--title-text-color);
@@ -331,6 +340,8 @@ body li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
   0px 1px 1px rgba(0, 0, 0, 0.14), 
   0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list .wrap {
